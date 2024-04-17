@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-overrides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "react": "18.2.0"
+  },
+  "overrides": {
+    "react": "$react"
+  },
+  "packageManager": "npm@10.2.4"
+}
